@@ -1,7 +1,6 @@
 import { defineStore } from "pinia";
 
-export const usePokemonStore = defineStore({
-    id: 'pokemon',
+export const usePokemonStore = defineStore('pokemonId', {
     state: () => ({
         pokemonDetail: {}
     }),
